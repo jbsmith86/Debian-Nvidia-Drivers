@@ -1,4 +1,4 @@
-Debian NVidia drivers installer
+Debian Nvidia drivers installer
 ===============================
 
 This is a nice script that will allow you to install Nvida driver in 
