@@ -1,6 +1,6 @@
 Debian NVIDIA driver installer
 ===============================
-Debian is a popular Linux distro, however I have found installing Nvidia non-free drivers is a bit confusing and doesn't always work right.
+Debian is a popular Linux distro, however I have found installing the Nvidia non-free drivers in Debian is a bit confusing and doesn't always work right.
 
 This is a script that will allow you to install/uninstall Nvidia drivers in 
 Debian **jessie** / **wheezy** / **squeeze** or whatever version you want, the easy way.
