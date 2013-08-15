@@ -21,7 +21,7 @@ fi
 
 #exit 0
 if [ $USER != root ]; then
- echo "¡Is necessary be root!"
+ echo "You must be root"
 exit 0
 fi
 echo "[Add Repository] [Please Wait]"
@@ -40,8 +40,8 @@ nvidia-xconfig
 echo "[Installing Nvidia-Settings]"
 sleep 2
 aptitude install nvidia-settings
-echo "[Is necessary reboot to apply the changes]"
-echo -n "[Do you want reboot now {y/n}]: " ; read var
+echo "You must reboot to apply the changes"
+echo -n "Do you want reboot now? {y/n}: " ; read var
 case $var in
 y)
 reboot
