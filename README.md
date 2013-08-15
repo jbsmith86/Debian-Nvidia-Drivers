@@ -27,7 +27,7 @@ Remove drivers:
 ##Aditional info
 
 Forked from:
-César Ferreira @ cesar.manuel.ferreira@gmail.com
+César Ferreira - cesar.manuel.ferreira@gmail.com
 
 ##Licence
 GNU Public License V.3
