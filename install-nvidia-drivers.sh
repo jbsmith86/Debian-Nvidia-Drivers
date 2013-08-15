@@ -21,7 +21,7 @@ fi
 
 #exit 0
 if [ $USER != root ]; then
- echo "You must be root"
+ echo "Error: You must be root"
 exit 0
 fi
 echo "Adding non-free repository..."
@@ -32,13 +32,13 @@ echo "Updating repository..."
 sleep 2
 aptitude update
 aptitude safe-upgrade
-echo "[Installing Nvidia-Kernel-Module]"
+echo "Installing Nvidia-Kernel-Module..."
 sleep 2
 VERSION=`uname -r`
 aptitude install nvidia-kernel-$VERSION nvidia-glx
 aptitude install nvidia-xconfig
 nvidia-xconfig
-echo "[Installing Nvidia-Settings]"
+echo "Installing Nvidia-Settings..."
 sleep 2
 aptitude install nvidia-settings
 echo "You must reboot to apply the changes"
