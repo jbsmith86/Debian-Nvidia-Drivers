@@ -24,10 +24,11 @@ if [ $USER != root ]; then
  echo "You must be root"
 exit 0
 fi
-echo "[Add Repository] [Please Wait]"
+echo "Adding non-free repository..."
+echo "Please Wait..."
 sleep 2
 echo "deb http://ftp.debian.org/debian/ $1 main contrib non-free" >> /etc/apt/sources.list
-echo "[Update Repository]"
+echo "Updating repository..."
 sleep 2
 aptitude update
 aptitude safe-upgrade
