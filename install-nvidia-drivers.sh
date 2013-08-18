@@ -32,13 +32,13 @@ echo "Updating repository..."
 sleep 2
 aptitude update
 aptitude safe-upgrade
-echo "Installing Nvidia-Kernel-Module..."
+echo "Installing Nvidia kernel module..."
 sleep 2
 VERSION=`uname -r`
 aptitude install nvidia-kernel-$VERSION nvidia-glx
 aptitude install nvidia-xconfig
 nvidia-xconfig
-echo "Installing Nvidia-Settings..."
+echo "Installing Nvidia settings..."
 sleep 2
 aptitude install nvidia-settings
 echo "You must reboot to apply the changes"
