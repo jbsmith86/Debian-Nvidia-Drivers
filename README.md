@@ -5,7 +5,7 @@ Debian is a popular Linux distro, however I have found installing the Nvidia non
 This is a script that will allow you to install/uninstall Nvidia drivers in 
 Debian **jessie** / **wheezy** / **squeeze** or whatever version you want, the easy way.
 
-##Instalation
+##Installation
 ```php
 chmod +x *.sh
 ```
